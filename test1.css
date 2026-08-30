@@ -254,7 +254,7 @@ border-radius: 0px !important;  }
 used only for starving kings and last day of events */
 
 img[src$="icon_warning.png"] {
-content: url('imagelink') !important;
+content: url('https://i.postimg.cc/GpV05z8f/image.png') !important;
 width: 24px !important; }
  
 /* CHAT */
@@ -407,18 +407,11 @@ if you don't want to use them, just delete this section.
 just don't use apostraphes (') in the actual text, that messes with the code
 */
  
-/* CUSTOM KING TITLE - AFTER */
- 
-#about > tbody > tr:nth-child(1) > td > div::after {
-    content:', TEXT';
-    font-size:17px;
-    
-}
  
 /* CUSTOM KING TITLE - BEFORE */
  
 #about > tbody > tr:nth-child(1) > td > div::before {
-    content:'TEXT';
+    content:'BAT';
     font-size:17px;
     
 }
@@ -481,7 +474,7 @@ otherwise it can make your navbar look weird.
 div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
 display: none;}
 div.container.main>div:nth-child(1)>nav>div.navbar-header>a::after {
-content: url('IMG LINK'); }
+content: url('https://i.postimg.cc/wj789Spv/Untitled-design-31-removebg-preview.png'); }
  
 /* TEXT BOXES & BUTTONS -
 all text boxes and buttons will be whatever color you put in here
