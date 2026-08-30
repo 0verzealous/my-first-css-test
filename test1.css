@@ -153,12 +153,12 @@ border-top: none !important;
 /* Bookmark Bar - aka breadcrumb, this is where your link path is shown */
 
 .breadcrumb {
-background: #HEX !important;
-color: #HEX !important;
+background: #FFF0F5 !important;
+color: #FFC0CB !important;
 border: none !important;
 border-radius: 0px !important;} 
 .breadcrumb .active {
-color: #HEX; }
+color: #FFB6C1; }
  
 /* ALERTS 
 .alert is all alerts, only set this one if you want all alerts to be the same color
@@ -175,14 +175,14 @@ border: none !important;
 border-radius: 0px !important;
 text-align: center !important;  }
 .alert-warning {
-background: #HEX !important;
-color: #HEX !important;}
+background: #E0344B !important;
+color: ##F099A5 !important;}
 .alert-danger {
-background: #HEX !important;
-color: #HEX !important;}
+background: #E0344B !important;
+color: ##F099A5 !important;}
 .alert-success {
-background: #HEX !important;
-color: #HEX !important;}
+background: #FFB6C1 !important;
+color: #FFF0F5 !important;}
  
 
 /*COMMENT BOX 
@@ -197,26 +197,26 @@ If you want the flippy floppy colors, where one is a little darker than the othe
 */
 
 div#commentBox {
-background: #HEX !important;
+background: #F0FFFA !important;
 border: none !important;
 border-radius: 0px !important;
-color: #HEX !important;}
+color: #FFB6C1 !important;}
 	
 .comment {     
-background: #HEX !important;
+background: #FFF0F5 !important;
 border: none !important;
 border-bottom: none !important;
 border-radius: 0px !important;
-color: #HEX !important;
+color: #FFB6C1 !important;
 text-align: center !important;}
 .text-muted { 
-color: #HEX !important; }
+color: #FFC0CB !important; }
 
 input.bad {
-background: #HEX !important;
-color: #HEX !important;}
+background: #E0344B !important;
+color: #B61B30 !important;}
 input.bad a {
-color: #HEX !important; }
+color: #B61B30 !important; }
 
 table#player.table hr {
 display: none !important; }
