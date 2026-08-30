@@ -79,17 +79,17 @@ H2 is not used anywhere in the default look unless you want to use it.
 H3 is used in the side bar (above the energy panel, achievement panel, etc. */
  
 h1 {
-color: #HEX !important;
+color: #FFB6C1 !important;
 font-size: 64px;
 text-align: center !important;
 font-family: "Playfair Display", serif;}
 
 h2 {
-color: #HEX !important;
+color: #FFB6C1 !important;
 font-size: 24px;}
 
 h3 {
-color: #HEX !important;
+color: #FFB6C1 !important;
 font-size: 18px;}
  
 /* LINKS
@@ -98,17 +98,17 @@ Plan accordingly. */
  
 a:link,
 a:visited {
-color: #HEX !important;
+color: #F07890 !important;
 background: none !important; }
    
 a:hover {
-color: #HEX !important; }
+color: #DE546F !important; }
  
 /* MAIN PANEL - The panel in front of your background image. Usually a solid color on Lioden.
 You can make it a solid color by either using a HEX code, or by setting the final number in RGBA to 1.0 */
    
 .container.main {
-background: rgba(55, 58, 39, 0.0);
+background: #FFF0F5;
 border: none;
 box-shadow: none;
 border-radius: 5px; }
@@ -118,20 +118,20 @@ background: none; }
 /* TOPBAR, NAVBAR, & BREADCRUMB */
  
 .topbar {
-background: #HEX !important;
-color: #HEX !important;
+background: #FFB6C1 !important;
+color: #FFD1DC !important;
 border: none !important;
 border-radius: 0px !important;  }
  
 .navbar {
-background: #HEX !important;
-color: #HEX !important;
+background: #FFC0CB !important;
+color: #FFF0F5 !important;
 border: none !important;
 border-radius: 0px !important; }
 
 .navbar li a:hover {
-background: #HEX !important;
-color: #e4a574 !important; }
+background: #FFF0F5 !important;
+color: #FFB6C1 !important; }
 
 /* This is mobile collapable navbar color changes.
 toggle is the button that opens the navbar
