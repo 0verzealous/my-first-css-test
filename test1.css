@@ -197,7 +197,7 @@ border-radius: 0px !important;
 box-shadow: none !important;  } */
  
 .panel {
-background: #FFD1DC !important;
+background: #FF8A9B !important;
 color: #FFB6C1 !important;
 border: none !important;
 border-radius: 0px !important;
@@ -209,21 +209,17 @@ to the colors you put here.
 Bars will also inherit the border-radius value from this one, so it's
 not needed to specify border-radius for all bars. */
 .progress-bar {
-background: #e0344b !important;
-background-image: url("https://www.transparenttextures.com/patterns/nice-snow.png");
+background: #FF8A9B !important;
 border-radius: 0px !important; }
 
 /* ENERGY */ .progress-bar-warning { 
-background: #e0344b !important;
-background-image: url("https://www.transparenttextures.com/patterns/nice-snow.png");
+background: #FF8A9B !important;
 color: #FFF0F5 !important;}
 /* HUNGER */ .progress-bar-danger { 
-background: #e0344b !important;
-background-image: url("https://www.transparenttextures.com/patterns/nice-snow.png");
+background: #FF8A9B !important;
 color: #FFF0F5 !important;}
 /* EXP + ACHIEVEMENTS */ .progress-bar-success { 
-background: #e0344b !important;
-background-image: url("https://www.transparenttextures.com/patterns/nice-snow.png");
+background: #FF8A9B !important;
 color: #FFF0F5 !important;}
 
 /* This is the text that reads Energy: X% */
