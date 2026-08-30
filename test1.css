@@ -203,14 +203,14 @@ border-radius: 0px !important;
 color: #FFB6C1 !important;}
 	
 .comment {     
-background: #FFF0F5 !important;
+background: #HEX !important;
 border: none !important;
 border-bottom: none !important;
 border-radius: 0px !important;
-color: #FF8A9B !important;
+color: #HEX !important;
 text-align: center !important;}
 .text-muted { 
-color: #FFC0CB !important; }
+color: #HEX !important; }
 
 input.bad {
 background: #E0344B !important;
