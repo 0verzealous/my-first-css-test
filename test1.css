@@ -171,9 +171,10 @@ color: #HEX !important; }
 
 input.bad {
 background: #E0344B !important;
+background: url('https://i.postimg.cc/GpV05z8f/image.png') center center fixed !important;
 color: #B61B30 !important;}
 input.bad a {
-color: #B61B30 !important; }
+color: transparent !important; }
 
 table#player.table hr {
 display: none !important; }
