@@ -53,15 +53,15 @@ BUT I recommend repeating patterns rather than full images. */
  
 @media screen and (min-width: 601px) { 
 body {
-background: url('https://postimg.cc/ZBXckDmm') center center fixed;
+background: url('https://i.postimg.cc/t4QN0KNG/image.png') center center fixed;
 background-size: 100%;
 color: #HEX; } }
 
 @media screen and (max-width: 600px){
 body {
-background: #HEX;
+background: #FFF0F5;
 background-size: cover;
-color: #FFF0F5; } }
+color: #FFB6C1; } }
 
 /* SCROLL BOXES */
  
