@@ -170,16 +170,18 @@ text-align: center !important;}
 color: #HEX !important; }
 
 input.bad {
-background: #E0344B !important;
-background: url('https://i.postimg.cc/GpV05z8f/image.png') center center fixed !important;
-color: #B61B30 !important;}
-input.bad a {
-color: transparent !important; }
+background-color: transparent !important;
+background-image: url('https://i.postimg.cc/GpV05z8f/image.png') !important;
+background-position: center center !important;
+background-repeat: no-repeat !important;
+background-size: cover !important;
+color: transparent !important;
+border: none !important;
+}
 
-table#player.table hr {
-display: none !important; }
-table#player.table div.xlarge { 
-margin-top: 10px !important; }
+input.bad a {
+color: transparent !important;
+}
 
  
 /* SIDE PANELS 
