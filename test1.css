@@ -61,7 +61,7 @@ color: #HEX; } }
 body {
 background: #HEX;
 background-size: cover;
-color: #HEX; } }
+color: #FFF0F5; } }
 
 /* SCROLL BOXES */
  
@@ -82,7 +82,7 @@ h1 {
 color: #HEX !important;
 font-size: 64px;
 text-align: center !important;
-font-family: 'Ruslan Display', cursive;}
+font-family: "Playfair Display", serif;}
 
 h2 {
 color: #HEX !important;
