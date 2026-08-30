@@ -514,13 +514,13 @@ height: auto !important; }
 
 
 div.cave-grid>img[src$="nestingbanner.png"] {
-	content: url('IMG LINK')!important; }
+	content: url('https://static.lioden.com/images/dynamic/backgrounds/sunsetoverlake.png')!important; }
 a[href$="unsorted.php?id=USERID"]>div.cave-grid>img{
-content: url('IMG LINK')!important;
+content: url('https://static.lioden.com/images/dynamic/backgrounds/sunsetoverlake.png')!important;
 width: 75px;
 height: 75px;}
 a[href*="lionoverview.php?id=USERID"]>div.cave-grid>img {
-content: url('IMG LINK')!important;
+content: url('https://static.lioden.com/images/dynamic/backgrounds/sunsetoverlake.png')!important;
 width: 75px;
 height: 75px; }
 
