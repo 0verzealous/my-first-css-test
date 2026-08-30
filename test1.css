@@ -177,18 +177,26 @@ color: transparent !important;
 /* night and day etc */
 img[alt="night Time"] {
     content: url("https://i.postimg.cc/qRF5R7XZ/night-time.png") !important;
+    width: 20px !important;
+    height: 20px !important;
 }
 
 img[alt="day Time"] {
     content: url("https://i.postimg.cc/C12Q1KHQ/day-time.png") !important;
+    width: 20px !important;
+    height: 20px !important;
 }
 
 img[alt="dry Season"] {
     content: url("https://i.postimg.cc/nzWPzLYS/dry-season.png") !important;
+    width: 20px !important;
+    height: 20px !important;
 }
 
 img[alt="wet Season"] {
     content: url("https://i.postimg.cc/B6zV6vch/wet-season.png") !important;
+    width: 20px !important;
+    height: 20px !important;
 }
 
 
