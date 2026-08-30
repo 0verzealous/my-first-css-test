@@ -53,9 +53,9 @@ BUT I recommend repeating patterns rather than full images. */
  
 @media screen and (min-width: 601px) { 
 body {
-background: url('https://i.postimg.cc/t4QN0KNG/image.png') center center fixed; !important; background-size: cover !important;
+background: url('https://img.wallpapersafari.com/desktop/1680/1050/18/50/vo1jDf.jpg') center center fixed;
 background-size: 100%;
-color: #HEX; } }
+color: #FFB6C1; } }
 
 @media screen and (max-width: 600px){
 body {
