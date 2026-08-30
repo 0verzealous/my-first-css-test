@@ -61,8 +61,7 @@ background: none !important; }
 a:hover {
 color: #DE546F !important; }
  
-/* MAIN PANEL - The panel in front of your background image. Usually a solid color on Lioden.
-You can make it a solid color by either using a HEX code, or by setting the final number in RGBA to 1.0 */
+/* MAIN PANEL */
    
 .container.main {
 background: #FFF0F5;
@@ -90,11 +89,7 @@ border-radius: 0px !important; }
 background: #FFF0F5 !important;
 color: #FFB6C1 !important; }
 
-/* This is mobile collapable navbar color changes.
-toggle is the button that opens the navbar
-leave .navbar-toggle background set to #HEX to have it inherit the color of the navbar
-navbar-collapse is just there to hide the white line 
-*/
+/* mobile */
 
 .navbar-toggle {
 border: none !important;
@@ -200,19 +195,7 @@ img[alt="wet Season"] {
 }
 
 
-/* SIDE PANELS 
-
-you can use https://www.transparenttextures.com/ to have your panel bgs, your progress bars, almost any element in your css have a texture!
-please note that the css provided by the site does NOT work on replaced images, you have to do something weird for those.
-
-if you want a texture for your panels, using the cardboard texture as an example, the code will look like this:
-.panel {
-background-color: #1000f2;
-background-image: url("https://www.transparenttextures.com/patterns/cardboard.png");
-color: #HEX !important;
-border: none !important;
-border-radius: 0px !important;
-box-shadow: none !important;  } */
+/* SIDE PANELS */
  
 .panel {
 background: #FFD1DC !important;
@@ -512,7 +495,7 @@ you can copy and paste for more caves or mounds than what's provided
 */
 
 div.cave-grid>img {
-content: url('https://static.lioden.com/images/items/Amusement/nestingbundle.png')!important;
+content: url('https://static.lioden.com/images/dynamic/backgrounds/sunsetoverlake.png')!important;
 width: 75px;
 height: 75px; }
 
@@ -870,117 +853,7 @@ or fill out both i can't stop you but it'll be a clusterfuck */
 	margin-left:10px;
 	filter: saturate(0%); }
 
-/* ALL CURRENCY ICONS - also by kat and pandora 
-if you do not want to change currency icons, simply delete this section of code */
- 
-/* GOLD BEETLE */
-img[src$="gold.png"] {
-    content:url('LINK')!important;
-    width:20px!important; }
- 
-/* SILVER BEETLE */
-img[src$="silver.png"] {
-    content:url('LINK')!important;
-    width:20px!important; }
-	
-/* EVENT CURRENCY */
- 
-/* JAN */
-img[src$="dermestid.png"] {
-    content:url('LINK')!important;
-    width:20px!important; }
- 
-/* FEB */
-img[src$="heartshell.png"] {
-    content:url('LINK')!important;
-    width:20px!important; }
- 
-/* MARCH */
-img[src$="beetlerhino.png"] {
-    content:url('LINK')!important;
-    width:20px!important; }
- 
-/* APRIL */
-img[src$="easteregg.png"] {
-    content:url('LINK')!important;
-    width:20px!important; }
- 
- 
-/* MAY */
-img[src$="beetlemant.png"] {
-    content:url('LINK')!important;
-    width:20px!important; }
- 
-/* JUNE */
-img[src$="khepri.png"] {
-    content:url('LINK')!important;
-    width:20px!important; }
- 
-/* JULY - METEORITE SHARDS */
-img[src$="shard.png"] {
-    content:url('LINK')!important;
-    width:20px!important; }
- 
-/* JULY - AXION CORES */
-img[src$="axion.png"] {
-    content:url('LINK')!important;
-    width:20px!important; }
- 
-/* AUG - CARRION BONES */
-img[src$="beetlecarrion.png"] {
-    content:url('LINK')!important;
-    width:20px!important; }
- 
-/* AUG - DRY BONES */
-img[src$="bone.png"] {
-    content:url('LINK')!important;
-    width:20px!important; }
- 
-/* SEPT - JEWEL BEETLES */
-img[src$="beetlejewel.png"] {
-    content:url('LINK')!important;
-    width:20px!important; }
- 
-/* SEPT - ELDRITCH TOKENS */
-img[src$="eldritch.png"] {
-    content:url('LINK')!important;
-    width:20px!important; }
- 
-/* OCT - BLOOD BEETLES */
-img[src$="beetleblood.png"] {
-    content:url('LINK')!important;
-    width:20px!important; }
- 
-/* OCT - NEPHILIM FEATHERS */
-img[src$="nephelinefeather.png"] {
-    content:url('LINK')!important;
-    width:20px!important; }
- 
-/* OCT - DEMON SCALES */
-img[src$="demonicscale.png"] {
-    content:url('LINK')!important;
-    width:20px!important; }
- 
-/* NOV */
-img[src$="scarabbeetle.png"] {
-    content:url('LINK')!important;
-    width:20px!important; }
- 
-/* DEC */
-img[src$="stinkbug.png"] {
-    content:url('LINK')!important;
-    width:20px!important; }
-	
-/* TREASURE HUNT */
-img[src$="icon_doubloon.png"] {
-    content:url('LINK')!important;
-    width:20px!important; }
-	
-/* IF YOU WANT A CUSTOM CURSOR GO TO https://www.cursors-4u.com/
-AND COPY AND PASTE THE PROVIDED CODE ONCE YOU CLICK THE GET HTML/CSS CODE BUTTON
-DO IT BELOW THIS POINT BUT BEFORE THE CREDIT */
-	
-/* CREDIT - no touchy this part, the code will work just fine */
+
  
 .breadcrumb::after {
 content: "";
