@@ -142,16 +142,7 @@ background: #FFB6C1 !important;
 color: #FFF0F5 !important;}
  
 
-/*COMMENT BOX 
-This is a complicated one. please read carefully
-div#CommentBox is the color of the ENTIRE BOX, without comments in it. it is also the container
-.comment is the COMMENTS THEMSELVES
-If you want the flippy floppy colors, where one is a little darker than the other, DO NOT FILL IN ANYTHING FOR
-.comment ONLY FILL IN div#commentBox
-
-.input.bad is the icon to delete comments. you will be the only one to see this
-.input.bad a is the color of the x inside of it
-*/
+/*COMMENT BOX */
 
 div#commentBox {
 background: #ffd1dc !important;
@@ -183,7 +174,30 @@ input.bad a {
 color: transparent !important;
 }
 
- 
+
+/* night and day etc */
+
+/* DAY TIME */
+img[src*="icon-time-day.png"] {
+    content: url("https://i.postimg.cc/C12Q1KHQ/day-time.png") !important;
+}
+
+/* NIGHT TIME */
+img[src*="icon-time-night.png"] {
+    content: url("https://i.postimg.cc/qRF5R7XZ/night-time.png") !important;
+}
+
+/* DRY SEASON */
+img[src*="icon-season-dry.png"] {
+    content: url("https://i.postimg.cc/nzWPzLYS/dry-season.png") !important;
+}
+
+/* WET SEASON */
+img[src*="icon-season-wet.png"] {
+    content: url("https://i.postimg.cc/B6zV6vch/wet-season.png") !important;
+}
+
+
 /* SIDE PANELS 
 
 you can use https://www.transparenttextures.com/ to have your panel bgs, your progress bars, almost any element in your css have a texture!
