@@ -174,26 +174,20 @@ input.bad a {
 color: transparent !important;
 }
 
-
 /* night and day etc */
-
-/* DAY TIME */
-img[src*="icon-time-day.png"] {
-    content: url("https://i.postimg.cc/C12Q1KHQ/day-time.png") !important;
-}
-
-/* NIGHT TIME */
-img[src*="icon-time-night.png"] {
+img[alt="night Time"] {
     content: url("https://i.postimg.cc/qRF5R7XZ/night-time.png") !important;
 }
 
-/* DRY SEASON */
-img[src*="icon-season-dry.png"] {
+img[alt="day Time"] {
+    content: url("https://i.postimg.cc/C12Q1KHQ/day-time.png") !important;
+}
+
+img[alt="dry Season"] {
     content: url("https://i.postimg.cc/nzWPzLYS/dry-season.png") !important;
 }
 
-/* WET SEASON */
-img[src*="icon-season-wet.png"] {
+img[alt="wet Season"] {
     content: url("https://i.postimg.cc/B6zV6vch/wet-season.png") !important;
 }
 
