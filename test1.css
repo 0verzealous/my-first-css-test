@@ -491,9 +491,9 @@ border-radius: 0px !important;
 padding: 5px;
 float: center;
 height: 65px;
-width: 100%;
+width: 75%;
 overflow: hidden;
-margin-bottom: 50px;
+margin-bottom: 5px;
 transition: 1s }     
 .Box3:hover {
 overflow-y: auto;
