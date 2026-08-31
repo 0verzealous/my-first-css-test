@@ -242,12 +242,12 @@ div#chatMessageContainer {
 border: none !important; }
 
 .s-chat-message_timestamp {
-color: #FFF0F5 !important; }
+color: #ffeade !important; }
 
 .s-chat-sidebar #fraChatChannelMenu,
 button.channelSwitcher, button.channelSwitcher.active {
     background: #FFD1DC !important;
-color: #FFF0F5 !important;	
+color: #ffeade !important;	
 border: none !important;
 border-radius: 0px !important;
 box-shadow: none !important; }
@@ -260,13 +260,13 @@ div.emoteList.active {
 div.emoteList.active::before {
 background: #FFD1DC
 border-top: none !important;
-border: 1px solid #HEX !important; }
+border: 1px solid #ffeade !important; }
 
 /* PINNED MESSAGES - This will change the background color of where staff pin news */
 
 .s-chat-message__pinned {
 background-color: #E0344B !important;
-color: #FFF0F5 !important;
+color: #ffeade !important;
 border: none !important; }
 
 /* Odd will show at the TOP of chat, even will show every other message under it. If you want both colors the same, do
@@ -486,7 +486,7 @@ background: #ff8a9b !important;
 color: #ffeade !important;
 border: none !important;
 border-radius: 0px !important;
-padding: 5px;
+padding: 50px;
 float: center;
 height: 65px;
 width: 100%;
