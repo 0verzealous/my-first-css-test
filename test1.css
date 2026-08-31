@@ -364,7 +364,7 @@ background: none !important; }
 /* custom king title */
  
 #about > tbody > tr:nth-child(1) > td > div::before {
-    content:'BAT';
+    content:'Bat';
     font-size:17px;
     
 }
