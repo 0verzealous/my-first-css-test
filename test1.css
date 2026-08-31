@@ -136,7 +136,7 @@ background: #ffd1dc !important;
 border: none !important;
 border-radius: 0px !important;
 color: #E0344B !important;}
-	
+
 .comment {     
 background: #ffd1dc !important;
 border: none !important;
@@ -273,15 +273,15 @@ border: none !important; }
 not touch the even/odd specifications */ 
 
 .s-chat-message {
-background: #HEX !important;
-color: #HEX !important;
+background: #ff8a9b !important;
+color: #ffeade !important;
 border-bottom: #HEX !important; }
 
 .s-chat-message:nth-child(even) {
-background: #HEX !important;
+background: #ff8a9b !important;
 border: none !important; }
 .s-chat-message:nth-child(odd) {
-background: #HEX !important;
+background: #C2A7AA !important;
 border: none !important; }
 	
 #chatMessageList[data-pings="enabled"] .s-chat-message_mention {
