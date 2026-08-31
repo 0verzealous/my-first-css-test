@@ -333,7 +333,7 @@ edit details, etc. */
 
 .top, .bottom, th {
 background: #e0344b !important;
-color: #fff0f5 !important;
+color: #fff0ed !important;
 border: none !important;
 border-radius: 0px !important; }
 
@@ -347,8 +347,9 @@ background: #ff8a9b;
 border-radius: 0px !important; }
 
 .inner-table .left {
-background: #e0344b !important;
-border-radius: 0px !important;  }
+background: #ffb6c1 !important;
+border-radius: 0px !important;
+color: #fff0ed !important;}
 
 .inner-table .right {
 background: #ffb6c1 !important;
