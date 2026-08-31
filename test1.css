@@ -55,7 +55,7 @@ Plan accordingly. */
  
 a:link,
 a:visited {
-color: #F07890 !important;
+color: #ffeade !important;
 background: none !important; }
    
 a:hover {
@@ -332,7 +332,7 @@ th is every other header on your den, like sparring table, reclaim left lions,
 edit details, etc. */
 
 .top, .bottom, th {
-background: #e0344b !important;
+background: #F07890 !important;
 color: #fff0ed !important;
 border: none !important;
 border-radius: 0px !important; }
