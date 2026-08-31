@@ -445,13 +445,13 @@ transition: 1s }
 height: 250px; }
    
 .Box1 {
-float: left;
+float: center;
 background: #ffd1dc !important;
 color: #ffeade !important;
 border: none !important;
 border-radius: 0px !important;
 padding: 5px;
-float: left;
+float: center;
 height: 75px;
 width: 100%;
 overflow: hidden;
@@ -462,15 +462,15 @@ overflow-y: auto;
 height: 250px; }
    
 .Box2 {
-float: right;
+float: center;
 background: #ffb6c1 !important;
 color: #ffd1dc !important;
 border: none !important;
 border-radius: 0px !important;
 padding: 5px;
-float: right;
+float: center;
 height: 75px;
-width: 30%;
+width: 100%;
 overflow: hidden;
 margin-bottom: 10px;
 transition: 1s }   
@@ -479,18 +479,18 @@ overflow-y: auto;
 height: 250px; }
 	
 .Box3 {
-float: right;
+float: center;
 background: #ff8a9b !important;
 color: #ffb6c1 !important;
 border: none !important;
 border-radius: 0px !important;
 padding: 5px;
-float: right;
+float: center;
 height: 75px;
-width: 65%;
+width: 100%;
 overflow: hidden;
 margin-bottom: 10px;
-transition: 1s }   
+transition: 1s }     
 .Box3:hover {
 overflow-y: auto;
 height: 250px; }
