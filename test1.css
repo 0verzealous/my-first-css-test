@@ -281,7 +281,7 @@ border-bottom: #HEX !important; }
 background: #ff8a9b !important;
 border: none !important; }
 .s-chat-message:nth-child(odd) {
-background: #C2A7AA !important;
+background: #E0B6BB !important;
 border: none !important; }
 	
 #chatMessageList[data-pings="enabled"] .s-chat-message_mention {
