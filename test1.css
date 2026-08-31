@@ -370,7 +370,7 @@ background: none !important; }
  
 #about > tbody > tr:nth-child(1) > td > div::before {
     content:'Bat';
-    font-size:17px;
+    font-size:19px;
     
 }
 
