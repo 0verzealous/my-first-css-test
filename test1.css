@@ -333,7 +333,7 @@ edit details, etc. */
 
 .top, .bottom, th {
 background: #e0344b !important;
-color: #e76f9c !important;
+color: #fff0f5 !important;
 border: none !important;
 border-radius: 0px !important; }
 
@@ -347,7 +347,7 @@ background: #ff8a9b;
 border-radius: 0px !important; }
 
 .inner-table .left {
-background: #ffb6c1 !important;
+background: #e0344b !important;
 border-radius: 0px !important;  }
 
 .inner-table .right {
@@ -494,9 +494,3 @@ transition: 1s }
 .Box3:hover {
 overflow-y: auto;
 height: 250px; }
-
-/* MOBILE ONLY BOXES 
-- these will only display on mobile. use if you want a more simplified box for mobile.
-mobile box html should look like this
-<div class="mobilebox">text</div> 
-if you don't want mobile only boxes, delete everything from below this to above cave covers */
