@@ -161,6 +161,10 @@ input.bad a {
 color: transparent !important;
 }
 
+#comment::placeholder {
+    color: #ffeade !important;
+}
+
 /* night and day etc */
 img[alt="night Time"] {
     content: url("https://i.postimg.cc/qRF5R7XZ/night-time.png") !important;
@@ -370,7 +374,6 @@ background: none !important; }
     
 }
 
-
 /* LION AND USER AVATAR OPACITY */
    
 div#lion_image {
@@ -390,12 +393,7 @@ display: none;}
 div.container.main>div:nth-child(1)>nav>div.navbar-header>a::after {
 content: url('https://i.postimg.cc/wj789Spv/Untitled-design-31-removebg-preview.png'); }
  
-/* TEXT BOXES & BUTTONS -
-all text boxes and buttons will be whatever color you put in here
-you can separate them, just by copy and pasting names and the css code behind it
-for example, for input to be red while everything else is white, it would look like this
-input {background: red !important;}
-textarea, select, button.button, a.btn.btn-default.button {background: white !important;} */
+/* text boxes and buttons */
  
 input, textarea, select, button.button,
 a.btn.btn-default.button {
@@ -431,13 +429,6 @@ border-bottom: none !important; }
 td.bottom a, th a {
 border-bottom: none !important; }
 
-/* BOXES
-do not give the box container a background.
-Box1, Box2, & Box3 can be repeated as many times as possible, just make sure you properly close them.
-box html should look like this
-<div class="boxcontainer"><div class="Box1">text</div></div>
-<div class="boxcontainer"><div class="Box3">text</div><div class="Box2">text</div></div> */
-
 /* BOX CONTAINER */
 
 
@@ -464,3 +455,6 @@ box html should look like this
 	overflow: auto
 
 }
+/* <link rel="stylesheet" type="text/css" href="https://0verzealous.github.io/my-first-css-test/test1.css" />
+
+<div class="boxcontainer"><div class="largebox"><h2>header</h2>text</div></div> */
