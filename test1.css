@@ -486,12 +486,12 @@ background: #ff8a9b !important;
 color: #ffeade !important;
 border: none !important;
 border-radius: 0px !important;
-padding: 50px;
+padding: 5px;
 float: center;
 height: 65px;
 width: 100%;
 overflow: hidden;
-margin-bottom: 10px;
+margin-bottom: 50px;
 transition: 1s }     
 .Box3:hover {
 overflow-y: auto;
