@@ -22,7 +22,7 @@ background: #FFF0F5;
 background-size: cover;
 color: #FFB6C1; } }
 
-/* headers */
+/* headers, kind of useless. h3 isn't used anywhere I don't think */
  
 h1 {
 color: #FFB6C1 !important;
@@ -38,7 +38,7 @@ h3 {
 color: #FFB6C1 !important;
 font-size: 18px;}
 
-/* scroll boxes */
+/* scroll boxes if needed */
  
 ::-webkit-scrollbar {
 width: 7px;
@@ -49,9 +49,7 @@ background: #HEX;}
 background: #HEX; } 
  
  
-/* LINKS
-Color of links. This will affect all links on your page.
-Plan accordingly. */
+/* color of links */
  
 a:link,
 a:visited {
@@ -61,7 +59,7 @@ background: none !important; }
 a:hover {
 color: #DE546F !important; }
  
-/* MAIN PANEL */
+/* big boy panel */
    
 .container.main {
 background: #FFF0F5;
@@ -71,7 +69,7 @@ border-radius: 5px; }
 .col-md-9 {
 background: none; } 
  
-/* TOPBAR, NAVBAR, & BREADCRUMB */
+/* self explanitory */
  
 .topbar {
 background: #FFB6C1 !important;
@@ -102,7 +100,7 @@ border-top: none !important;
 }
 
  
-/* Bookmark Bar - aka breadcrumb, this is where your link path is shown */
+/* breadcrumb bar */
 
 .breadcrumb {
 background: #FFF0F5 !important;
@@ -129,7 +127,7 @@ background: #FFB6C1 !important;
 color: #FFF0F5 !important;}
  
 
-/*COMMENT BOX */
+/* comment box, NOT CHAT BOX */
 
 div#commentBox {
 background: #ffd1dc !important;
@@ -191,7 +189,7 @@ img[alt="wet Season"] {
 }
 
 
-/* SIDE PANELS */
+/* side panels */
  
 .panel {
 background: #FFD1DC !important;
@@ -200,15 +198,11 @@ border: none !important;
 border-radius: 0px !important;
 box-shadow: none !important;  }
    
-/*IMPRESSION / ALL PROGRESS Bars
-Unless you color the progress bars below, all progress bars will default
-to the colors you put here.
-Bars will also inherit the border-radius value from this one, so it's
-not needed to specify border-radius for all bars. */
+/* impression bar */
 .progress-bar {
 background: #FF8A9B !important;
 border-radius: 0px !important; }
-
+/* leave "#hex" if they aren't different */
 /* ENERGY */ .progress-bar-warning { 
 background: #HEX !important;
 color: #HEX !important;}
@@ -219,24 +213,23 @@ color: #HEX !important;}
 background: #HEX !important;
 color: #HEX !important;}
 
-/* This is the text that reads Energy: X% */
+/* text on progress bar */
 .progress div {
 color: #FFF0F5 !important; }
 
-/* This is the background of the progress bars. */
+/* background of progress bar */
 .progress {
 background:  #FFB6C1;
 color: #HEX !important;
 border-radius: 0px !important;  }
 
-/* Icon Replacement - Warning
-used only for starving kings and last day of events */
+/* warning image */
 
 img[src$="icon_warning.png"] {
 content: url('https://i.postimg.cc/GpV05z8f/image.png') !important;
 width: 24px !important; }
  
-/* CHAT */
+/* BIG OL CHATBOX */
 
 button#label_currentChannel {
 border: none !important;
@@ -266,7 +259,7 @@ background: #FFD1DC
 border-top: none !important;
 border: 1px solid #ffeade !important; }
 
-/* PINNED MESSAGES - This will change the background color of where staff pin news */
+/* pinned message */
 
 .s-chat-message__pinned {
 background-color: #E0344B !important;
