@@ -25,15 +25,18 @@ background: none !important; }
 .custom-boxes {
     width: 100%;
     overflow: hidden;
+    text-align: left;
 }
 
-/* INDIVIDUAL BOXES */
+/* THREE TOP BOXES */
 
 .custom-box {
-    float: left;
+    display: inline-block;
+    vertical-align: top;
     width: 31.5%;
     height: 180px;
-    margin: 0 0.9% 15px 0.9%;
+    margin: 0 0.7% 15px 0.7%;
+    padding: 0;
     background: #283618 !important;
     border: 2px solid #bc6c25 !important;
     border-radius: 8px;
@@ -47,6 +50,8 @@ background: none !important; }
     background: #606c38 !important;
     color: #fefae0 !important;
     padding: 10px;
+    height: 38px;
+    box-sizing: border-box;
     text-align: center;
     font-weight: bold;
     font-size: 15px;
@@ -56,7 +61,7 @@ background: none !important; }
 /* BOX CONTENT */
 
 .custom-content {
-    height: 130px;
+    height: 138px;
     padding: 10px;
     box-sizing: border-box;
     overflow-y: auto;
@@ -84,14 +89,15 @@ background: none !important; }
     background: #dda15e;
 }
 
-/* FOURTH / WIDE BOX */
+/* FOURTH BOX */
 
 .custom-box-wide {
-    width: 97.3%;
+    display: block;
+    width: 97.4%;
     height: 220px;
-    margin-top: 0;
+    margin: 0 auto;
 }
 
 .custom-box-wide .custom-content {
-    height: 170px;
+    height: 178px;
 }
