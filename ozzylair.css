@@ -7,13 +7,13 @@
 body {
 background: url('https://i.postimg.cc/FznnYHb7/Untitled-design-(30).png') center center fixed;
 background-size: 100%;
-color: #FFB6C1; } }
+color: #hex; } }
 
 @media screen and (max-width: 600px){
 body {
-background: #FFF0F5;
+background: #hex;
 background-size: cover;
-color: #FFB6C1; } }
+color: #hex; } }
 
 /* DONT TOUCH*/
 html.nolayout {
