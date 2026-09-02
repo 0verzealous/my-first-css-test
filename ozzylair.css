@@ -2,76 +2,28 @@
 
 /*________TEXTBOXES_______*/
 
-/* ===== COLLAPSIBLE BOXES ===== */
-
-.custom-box-container {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    width: 100%;
-}
-
 .custom-box {
-    background-color: #283618; /* Black Forest */
-    border: 2px solid #bc6c25; /* Copper */
+    background: #283618;
+    border: 2px solid #bc6c25;
     border-radius: 8px;
-    overflow: hidden;
-    color: #fefae0; /* Cornsilk */
+    color: #fefae0;
+    margin-bottom: 10px;
 }
 
-/* Box title */
 .custom-box summary {
-    background-color: #606c38; /* Olive Leaf */
-    color: #fefae0; /* Cornsilk */
-    padding: 10px 14px;
+    background: #606c38;
+    color: #fefae0;
+    padding: 10px;
     cursor: pointer;
     font-weight: bold;
-    font-size: 16px;
-    list-style: none;
 }
 
-/* Removes default triangle */
-.custom-box summary::-webkit-details-marker {
-    display: none;
-}
-
-/* Custom arrow */
-.custom-box summary::before {
-    content: "▸";
-    color: #dda15e; /* Light Caramel */
-    margin-right: 8px;
-    transition: 0.2s;
-}
-
-/* Arrow rotates when open */
-.custom-box[open] summary::before {
-    content: "▾";
-}
-
-/* Hover */
-.custom-box summary:hover {
-    background-color: #283618;
-    color: #dda15e;
-}
-
-/* Hidden content */
 .box-content {
-    padding: 12px 15px;
-    background-color: #283618;
+    padding: 10px;
     color: #fefae0;
 }
 
-/* Paragraphs */
-.box-content p {
-    margin: 0 0 8px 0;
-}
-
-/* Links */
-.box-content a {
+.custom-box summary:hover {
+    background: #283618;
     color: #dda15e;
-}
-
-/* Link hover */
-.box-content a:hover {
-    color: #bc6c25;
 }
