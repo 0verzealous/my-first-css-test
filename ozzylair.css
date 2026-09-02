@@ -1,29 +1,77 @@
 /*wip*/
 
-/*________TEXTBOXES_______*/
+/* ===== CUSTOM BOXES ===== */
+
+.custom-boxes {
+    width: 100%;
+    overflow: hidden;
+}
+
+/* INDIVIDUAL BOXES */
 
 .custom-box {
-    background: #283618;
-    border: 2px solid #bc6c25;
+    float: left;
+    width: 31.5%;
+    height: 180px;
+    margin: 0 0.9% 15px 0.9%;
+    background: #283618 !important;
+    border: 2px solid #bc6c25 !important;
     border-radius: 8px;
-    color: #fefae0;
-    margin-bottom: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
 }
 
-.custom-box summary {
-    background: #606c38;
-    color: #fefae0;
+/* BOX TITLE */
+
+.custom-title {
+    background: #606c38 !important;
+    color: #fefae0 !important;
     padding: 10px;
-    cursor: pointer;
+    text-align: center;
     font-weight: bold;
+    font-size: 15px;
+    border-bottom: 2px solid #dda15e;
 }
 
-.box-content {
+/* BOX CONTENT */
+
+.custom-content {
+    height: 130px;
     padding: 10px;
-    color: #fefae0;
+    box-sizing: border-box;
+    overflow-y: auto;
+    overflow-x: hidden;
+    color: #fefae0 !important;
+    background: #283618 !important;
 }
 
-.custom-box summary:hover {
+/* SCROLLBAR */
+
+.custom-content::-webkit-scrollbar {
+    width: 8px;
+}
+
+.custom-content::-webkit-scrollbar-track {
     background: #283618;
-    color: #dda15e;
+}
+
+.custom-content::-webkit-scrollbar-thumb {
+    background: #606c38;
+    border-radius: 5px;
+}
+
+.custom-content::-webkit-scrollbar-thumb:hover {
+    background: #dda15e;
+}
+
+/* FOURTH / WIDE BOX */
+
+.custom-box-wide {
+    width: 97.3%;
+    height: 220px;
+    margin-top: 0;
+}
+
+.custom-box-wide .custom-content {
+    height: 170px;
 }
