@@ -1,20 +1,20 @@
 /*wip*/
 
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
- 
-body {font-family: "Playfair Display", serif;}
- 
-.topbar {font-family: "Playfair Display", serif;}
- 
-.navbar {font-family: "Playfair Display", serif;}
 
-/* background */
- 
+
 @media screen and (min-width: 601px) { 
 body {
 background: url('https://i.postimg.cc/FznnYHb7/Untitled-design-(30).png') center center fixed;
 background-size: 100%;
 color: #FFB6C1; } }
+
+@media screen and (max-width: 600px){
+body {
+background: #FFF0F5;
+background-size: cover;
+color: #FFB6C1; } }
+
+
 /* DONT TOUCH*/
 html.nolayout {
 background: none !important; }
