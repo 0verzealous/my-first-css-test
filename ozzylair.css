@@ -1,1 +1,41 @@
 /*wip*/
+
+/*textboxes*/
+
+.custom-box {
+  border: 2px solid #007bff;
+  border-radius: 8px;
+  margin: 10px 0;
+  background-color: #f8f9fa;
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+}
+
+.custom-box summary {
+  padding: 12px 16px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  outline: none;
+}
+
+.custom-box summary:hover {
+  background-color: #0056b3;
+}
+
+.box-content {
+  padding: 16px;
+  background-color: #ffffff;
+  color: #333333;
+}
+
+
+.boxes {
+    display: flex;
+    gap: 10px;
+}
+
+.custom-box {
+    flex: 1;
+}
