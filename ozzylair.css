@@ -2,18 +2,6 @@
 
 
 
-@media screen and (min-width: 601px) { 
-body {
-background: url('https://i.postimg.cc/FznnYHb7/Untitled-design-(30).png') center center fixed;
-background-size: 100%;
-color: #FFB6C1; } }
-
-@media screen and (max-width: 600px){
-body {
-background: #FFF0F5;
-background-size: cover;
-color: #FFB6C1; } }
-
 
 /* DONT TOUCH*/
 html.nolayout {
@@ -23,70 +11,60 @@ background: none !important; }
 /* ===== CUSTOM BOX LAYOUT ===== */
 
 .custom-boxes {
-    width: 100%;
-    overflow: auto;
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 15px !important;
+    width: 100% !important;
 }
 
-/* TOP THREE BOXES */
+/* INDIVIDUAL TOP BOXES */
 
 .custom-box {
-    float: left;
-    width: 31.33%;
-    height: 180px;
-    margin: 0 1% 15px 1%;
-    padding: 0;
+    height: 180px !important;
     background: #283618 !important;
     border: 2px solid #bc6c25 !important;
-    border-radius: 8px;
-    box-sizing: border-box;
-    overflow: hidden;
+    border-radius: 8px !important;
+    overflow: hidden !important;
+    box-sizing: border-box !important;
 }
 
-/* FIRST BOX */
-.custom-box:first-child {
-    margin-left: 0;
-}
-
-/* THIRD BOX */
-.custom-box:nth-child(3) {
-    margin-right: 0;
-}
-
-
-/* ===== BOX TITLES ===== */
+/* BOX TITLE */
 
 .custom-title {
-    height: 38px;
-    line-height: 38px;
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-
     background: #606c38 !important;
     color: #fefae0 !important;
-
-    text-align: center;
-    font-weight: bold;
-    font-size: 15px;
-
-    border-bottom: 2px solid #dda15e;
+    padding: 10px !important;
+    height: 50px !important;
+    box-sizing: border-box !important;
+    text-align: center !important;
+    font-weight: bold !important;
+    font-size: 15px !important;
+    border-bottom: 2px solid #dda15e !important;
 }
 
-
-/* ===== BOX CONTENT ===== */
+/* BOX CONTENT */
 
 .custom-content {
-    height: 138px;
-    padding: 10px;
-    box-sizing: border-box;
-
-    overflow-y: auto;
-    overflow-x: hidden;
-
+    height: 126px !important;
+    padding: 10px !important;
+    box-sizing: border-box !important;
+    overflow-y: auto !important;
+    overflow-x: hidden !important;
     color: #fefae0 !important;
     background: #283618 !important;
 }
 
+/* FOURTH / BOTTOM BOX */
+
+.custom-box-wide {
+    grid-column: 1 / 4 !important;
+    width: 100% !important;
+    height: 220px !important;
+}
+
+.custom-box-wide .custom-content {
+    height: 166px !important;
+}
 
 /* ===== SCROLLBAR ===== */
 
@@ -103,19 +81,6 @@ background: none !important; }
     border-radius: 5px;
 }
 
-
-/* ===== FOURTH / BOTTOM BOX ===== */
-
-.custom-box-wide {
-    clear: both;
-    float: none;
-
-    width: 100%;
-    height: 220px;
-
-    margin: 0;
-}
-
-.custom-box-wide .custom-content {
-    height: 178px;
+.custom-content::-webkit-scrollbar-thumb:hover {
+    background: #dda15e;
 }
