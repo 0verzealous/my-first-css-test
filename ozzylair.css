@@ -126,3 +126,13 @@ background: none !important; }
 .my-box-table {
     margin-top: -300px !important;
 }
+
+.my-box-table,
+.my-box-table tbody,
+.my-box-table tr,
+.my-box-table td {
+    background: transparent !important;
+    border: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
