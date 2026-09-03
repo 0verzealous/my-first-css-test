@@ -187,7 +187,7 @@ font-size: 18px;}
 /* big boy panel */
    
 .container.main {
-background: #606c38;
+background: #fefae0;
 border: none;
 box-shadow: none;
 border-radius: 5px; }
@@ -195,7 +195,11 @@ border-radius: 5px; }
 background: none; } 
 
 
-
+/* logo */
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
+display: none;}
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a::after {
+content: url('https://i.postimg.cc/R0y3jkrR/Untitled-design-33-removebg-preview.png'); }
 
 
 
