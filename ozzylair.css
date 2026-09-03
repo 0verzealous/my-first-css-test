@@ -157,3 +157,59 @@ background: none !important; }
 .my-content::-webkit-scrollbar-thumb:hover {
     background: #dda15e;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==================== BIG BOY STUFF ==================== */
+
+/* <link rel="stylesheet" type="text/css" href="https://0verzealous.github.io/my-first-css-test/ozzylair.css" />
+
+<table class="my-box-table">
+<tr>
+<td>
+<div class="my-box"><div class="my-title">INTERESTS</div>
+<div class="my-content">
+Your interests go here.
+</div>
+</div>
+</td>
+
+<td>
+<div class="my-box"><div class="my-title">PERSONALITY</div><div class="my-content">
+Your personality information goes here.
+</div>
+</div>
+</td>
+
+<td>
+<div class="my-box"><div class="my-title">LIKES & DISLIKES</div><div class="my-content">
+Your likes and dislikes go here.
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td colspan="3">
+<div class="my-box my-wide-box"><div class="my-title">ABOUT</div><div class="my-content">
+Put your longer information here.
+<br /><br />
+This fourth box is wider than the three above it.
+</div>
+</div>
+
+</td>
+</tr>
+</table> */
