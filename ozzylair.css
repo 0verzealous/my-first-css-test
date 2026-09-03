@@ -64,8 +64,8 @@ background: none !important; }
     margin: 0 !important;
     padding: 0 !important;
 
-    background: #c3a995 !important;
-    border: 2px solid #8a7968 !important;
+    background: #6f5e53 !important;
+    border: 2px solid #593d3b !important;
     border-radius: 8px !important;
 
     box-sizing: border-box !important;
@@ -90,8 +90,8 @@ background: none !important; }
 
     box-sizing: border-box !important;
 
-    background: #ab947e !important;
-    color: #6f5e53 !important;
+    background: #8a7968 !important;
+    color: #c3a995 !important;
 
     text-align: center !important;
     font-weight: bold !important;
@@ -116,24 +116,11 @@ background: none !important; }
 
     box-sizing: border-box !important;
 
-    background: #c3a995 !important;
-    color: #6f5e53 !important;
+    background: #6f5e53 !important;
+    color: #c3a995 !important;
 
     overflow-y: auto !important;
     overflow-x: hidden !important;
-}
-
-/* ================================
-   FOURTH / WIDE BOX
-   ================================ */
-
-.my-wide-box {
-    width: 100% !important;
-    height: 220px !important;
-}
-
-.my-wide-box .my-content {
-    height: 166px !important;
 }
 
 
@@ -150,7 +137,7 @@ background: none !important; }
 }
 
 .my-content::-webkit-scrollbar-thumb {
-    background: #ab947e;
+    background: #8a7968;
     border-radius: 5px;
 }
 
@@ -158,41 +145,52 @@ background: none !important; }
     background: #593d3b;
 }
 
+
 /* color of links */
  
 a:link,
 a:visited {
-color: #593d3b !important;
-background: none !important; }
+    color: #593d3b !important;
+    background: none !important;
+}
    
 a:hover {
-color: #8a7968 !important; }
+    color: #6f5e53 !important;
+}
 
-/* headers, kind of useless. h3 isn't used anywhere I don't think */
+
+/* headers */
  
 h1 {
-color: #593d3b !important;
-font-size: 64px;
-text-align: center !important;
-font-family: "Playfair Display", serif;}
+    color: #593d3b !important;
+    font-size: 64px;
+    text-align: center !important;
+    font-family: "Playfair Display", serif;
+}
 
 h2 {
-color: #593d3b !important;
-font-size: 24px;}
+    color: #593d3b !important;
+    font-size: 24px;
+}
 
 h3 {
-color: #593d3b !important;
-font-size: 18px;}
+    color: #593d3b !important;
+    font-size: 18px;
+}
+
 
 /* big boy panel */
    
 .container.main {
-background: #6f5e53;
-border: none;
-box-shadow: none;
-border-radius: 5px; }
+    background: #c3a995;
+    border: none;
+    box-shadow: none;
+    border-radius: 5px;
+}
+
 .col-md-9 {
-background: none; } 
+    background: none;
+}
 
 
 /* logo */
