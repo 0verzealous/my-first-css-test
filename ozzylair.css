@@ -61,6 +61,8 @@ background: none !important; }
 
     box-sizing: border-box !important;
     overflow: hidden !important;
+
+    position: relative !important;
 }
 
 
@@ -71,9 +73,10 @@ background: none !important; }
 .my-title {
     display: block !important;
 
-    width: 100% !important;
+    width: calc(100% + 4px) !important;
     height: 50px !important;
-    margin: 0 !important;
+
+    margin: -2px 0 0 -2px !important;
     padding: 10px !important;
 
     box-sizing: border-box !important;
@@ -97,7 +100,8 @@ background: none !important; }
 
 .my-content {
     width: 100% !important;
-    height: 126px !important;
+    height: 128px !important;
+
     margin: 0 !important;
     padding: 12px !important;
 
@@ -109,7 +113,6 @@ background: none !important; }
     overflow-y: auto !important;
     overflow-x: hidden !important;
 }
-
 
 /* ================================
    FOURTH / WIDE BOX
