@@ -158,7 +158,15 @@ background: none !important; }
     background: #dda15e;
 }
 
-
+/* color of links */
+ 
+a:link,
+a:visited {
+color: #dda15e !important;
+background: none !important; }
+   
+a:hover {
+color: #bc6c25 !important; }
 
 
 
