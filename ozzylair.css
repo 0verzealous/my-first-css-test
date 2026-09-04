@@ -269,13 +269,20 @@ text-align: center !important;}
 color: #c3a995 !important; }
 
 input.bad {
-background-color: transparent !important;
-background-image: url('https://i.postimg.cc/ydbqYMCV/Untitled-design-2-removebg-preview.png') !important;
-background-position: center center !important;
-background-repeat: no-repeat !important;
-background-size: cover !important;
-color: transparent !important;
-border: none !important;
+    background-color: transparent !important;
+    background-image: url('https://i.postimg.cc/ydbqYMCV/Untitled-design-2-removebg-preview.png') !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+
+    color: transparent !important;
+    border: none !important;
+
+    width: 25px !important;
+    height: 25px !important;
+
+    font-size: 0 !important;
+    cursor: pointer !important;
 }
 
 input.bad a {
@@ -287,12 +294,17 @@ color: transparent !important;
 }
 
 /* ========== CREDIT FOR BACKGROUND AND OTHER STUFF ================ */
+.breadcrumb {
+    position: relative !important;
+}
+
 .breadcrumb::after {
-content: "background by <a href="https://www.instagram.com/hodarinundu/">hodarinundu</a>";
-color: #FFFFFF;
-position: absolute;
-right: 13%;
-z-index: 100; }
+    content: "background by hodarinundu";
+    color: #FFFFFF !important;
+    position: absolute;
+    right: 13%;
+    z-index: 100;
+}
 
 /* side panels */
  
