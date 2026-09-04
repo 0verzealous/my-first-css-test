@@ -520,7 +520,7 @@ background: none !important; }
  
 #about > tbody > tr:nth-child(1) > td > div::before {
     content:'Lover of All Things Lion,';
-    font-size:19px;
+    font-size:18px;
 
 /* text boxes and buttons */
  
