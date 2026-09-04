@@ -268,21 +268,28 @@ text-align: center !important;}
 .text-muted { 
 color: #c3a995 !important; }
 
-input.bad {
-    background-color: transparent !important;
-    background-image: url('https://i.postimg.cc/ydbqYMCV/Untitled-design-2-removebg-preview.png') !important;
-    background-position: center center !important;
-    background-repeat: no-repeat !important;
-    background-size: contain !important;
-
-    color: transparent !important;
-    border: none !important;
-
+input[type="button"].bad {
+    display: inline-block !important;
     width: 25px !important;
     height: 25px !important;
+    padding: 0 !important;
+    margin: 0 !important;
 
+    background-image: url('https://i.postimg.cc/ydbqYMCV/Untitled-design-2-removebg-preview.png') !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: 25px 25px !important;
+
+    background-color: transparent !important;
+    border: none !important;
+
+    color: transparent !important;
     font-size: 0 !important;
+    text-indent: -9999px !important;
+
     cursor: pointer !important;
+    box-shadow: none !important;
+    outline: none !important;
 }
 
 input.bad a {
