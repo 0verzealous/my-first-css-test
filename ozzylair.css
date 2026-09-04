@@ -208,9 +208,91 @@ div.container.main>div:nth-child(1)>nav>div.navbar-header>a::after {
 content: url('https://i.postimg.cc/9QnFMsmf/newlogo-removebg-preview.png'); }
 
 
+/* self explanatory */
+ 
+.topbar {
+background: #8a7968 !important;
+color: #c3a995 !important;
+border: none !important;
+border-radius: 0px !important;  }
+ 
+.navbar {
+background: #6f5e53 !important;
+color: #c3a995 !important;
+border: none !important;
+border-radius: 0px !important; }
 
+.navbar li a:hover {
+background: #c3a995 !important;
+color: #593d3b !important; }
 
+/* breadcrumb bar */
 
+.breadcrumb {
+background: #c3a995 !important;
+color: #6f5e53 !important;
+border: none !important;
+border-radius: 0px !important;} 
+
+.breadcrumb .active {
+color: #593d3b; }
+ 
+.alert {
+background: #ab947e !important;
+color: #593d3b !important;
+border: none !important;
+border-radius: 0px !important;
+text-align: center !important;  }
+
+.alert-warning {
+background: #8a7968 !important;
+color: #c3a995 !important;}
+
+.alert-danger {
+background: #593d3b !important;
+color: #c3a995 !important;}
+
+.alert-success {
+background: #6f5e53 !important;
+color: #c3a995 !important;}
+ 
+
+/* comment box, NOT CHAT BOX */
+
+div#commentBox {
+background: #6f5e53 !important;
+border: none !important;
+border-radius: 0px !important;
+color: #c3a995 !important;}
+
+.comment {     
+background: #6f5e53 !important;
+border: none !important;
+border-bottom: none !important;
+border-radius: 0px !important;
+color: #c3a995 !important;
+text-align: center !important;}
+
+.text-muted { 
+color: #c3a995 !important; }
+
+input.bad {
+background-color: transparent !important;
+background-image: url('https://i.postimg.cc/GpV05z8f/image.png') !important;
+background-position: center center !important;
+background-repeat: no-repeat !important;
+background-size: cover !important;
+color: transparent !important;
+border: none !important;
+}
+
+input.bad a {
+color: transparent !important;
+}
+
+#comment::placeholder {
+    color: #ab947e !important;
+}
 
 
 /* ==================== BIG BOY STUFF ==================== */
