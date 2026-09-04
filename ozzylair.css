@@ -559,6 +559,19 @@ td.bottom a, th a {
 border-bottom: none !important; }
 
 
+/* LION AND USER AVATAR OPACITY */
+   
+div#lion_image {
+opacity: 0.5;
+border-radius: 0%;
+border: 2px solid #6f5e53 !important;
+overflow: hidden; }   
+table#player img {
+opacity: 0.5;
+background-color: #593d3b;
+border: 2px solid #6f5e53 !important;
+border-radius: 0%; }
+
 
 
 /* ==================== BIG BOY STUFF ==================== */
