@@ -11,7 +11,7 @@ body {font-family: "Instrument Serif", serif;}
 
 @media screen and (min-width: 601px) { 
 body {
-background: url('https://i.postimg.cc/qMBkGpgz/Untitled-design.png') center center fixed;
+background: url('https://i.postimg.cc/tRMv1d1f/Untitled-design-(1).png') center center fixed;
 background-size: 100%;
 color: #HEX; } }
 
@@ -25,6 +25,14 @@ color: #HEX; } }
 /* DONT TOUCH*/
 html.nolayout {
 background: none !important; }
+
+/* CREDIT FOR BACKGROUND AND OTHER STUFF */
+.breadcrumb::after {
+content: "background by <a href="https://www.instagram.com/hodarinundu/">hodarinundu</a>";
+color: #HEX;
+position: absolute;
+right: 13%;
+z-index: 100; }
 
 
 /* ================================
