@@ -449,12 +449,114 @@ button#label_currentChannel {
 }
 
 
+/* FAPA, KING DYNASTY, ETC.
+The .xsmall makes it where FAPA boxes are the same length.
+div.left controls BOTH the dynasty, achievements, showcase, beetle book AND
+view breeding requests, view user log, and view attack history buttons */
+ 
+.feature {
+background: #6f5e53 !important;
+color: #c3a995 !important;
+border: 3px double #593d3b !important;
+border-radius: 0px !important;  }
+
+div.left {
+background: #6f5e53 !important;
+color: #c3a995 !important;
+border: none !important;
+border-radius: 0px !important; }
+
+.xsmall {
+font-size: 14px !important; }
+ 
+/* LION INFO 
+Table - the background behind your table. You can make this a solid color by replacing
+rgba(0, 0, 0, 0.0) with a HEX code, or by replacing the 0.0 with a 1.0 */
+ 
+.table {
+background: #c3a995 !important;
+border: none !important;
+border-collapse: separate;
+border-radius: 0px; }
+
+/* .top is where your king's name is displayed
+.bottom is where your number of mutations within your pride is displayed
+th is every other header on your den, like sparring table, reclaim left lions,
+edit details, etc. */
+
+.top, .bottom, th {
+background: #8a7968 !important;
+color: #c3a995 !important;
+border: none !important;
+border-radius: 0px !important; }
+
+/* table.left will be used by the sections on the left of the edit your details panel once open
+.inner-table .left is used by the table that displays the names of the sections of
+info about your den, like your territory, your king's stats, etc. 
+.inner-table .right is used by the boxes next to the king's info, that displays the actual info. */
+ 
+.table .left {
+background: #6f5e53 !important;
+border-radius: 0px !important; }
+
+.inner-table .left {
+background: #6f5e53 !important;
+border-radius: 0px !important;
+color: #c3a995 !important;}
+
+.inner-table .right {
+background: #ab947e !important;
+border-radius: 0px !important; 
+color: #c3a995 !important; } 
+
+.right_odd {
+background: none !important; }
+
+
+/* Code made by Pandora #144118  */
+ 
+ 
+/* custom king title */
+ 
+#about > tbody > tr:nth-child(1) > td > div::before {
+    content:'Lover of All Things Lion,';
+    font-size:19px;
+
+/* text boxes and buttons */
+ 
+input, textarea, select, button.button,
+a.btn.btn-default.button {
+background: #6f5e53 !important;
+border: none !important;
+border-radius: 0px !important;
+color: #c3a995 !important;
+text-shadow: none !important; }
+ 
+/* cave names */
+ 
+.cave-grid,
+.mound-grid {
+background: #6f5e53 !important;
+color: #c3a995 !important;
+border: none !important;
+border-radius: 0px !important; }
 
 
 
+/* This changes the color of the 'badge', aka what displays inbox notifications &
+days till heat for lionesses */
 
+.badge {
+background: #593d3b !important;
+color: #c3a995 !important; }
+	
+/* no link*/
+		
+.footer a:link, .footer a:visited, .footer a:active {
+border-bottom: none !important; }
 
-
+td.bottom a, th a {
+border-bottom: none !important; }
 
 
 
