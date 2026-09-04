@@ -293,6 +293,19 @@ color: transparent !important;
     color: #ab947e !important;
 }
 
+#comment {
+    background: #6f5e53 !important;
+    color: #c3a995 !important;
+    border: 2px solid #593d3b !important;
+    border-radius: 0px !important;
+}
+
+#comment::placeholder {
+    color: #ab947e !important;
+}
+
+
+
 /* ========== CREDIT FOR BACKGROUND AND OTHER STUFF ================ */
 .breadcrumb {
     position: relative !important;
@@ -402,7 +415,31 @@ color: #c3a995 !important; }
 div#lblCharacterCounter {
 color: #HEX !important; }
 
+/* chat channel button */
 
+button#label_currentChannel {
+    background: #6f5e53 !important;
+    color: #c3a995 !important;
+    border: 2px solid #593d3b !important;
+    border-radius: 0px !important;
+}
+
+
+/* chat message input */
+
+#txtChatInput {
+    background: #6f5e53 !important;
+    color: #c3a995 !important;
+    border: 2px solid #593d3b !important;
+    border-radius: 0px !important;
+}
+
+
+/* chat input placeholder */
+
+#txtChatInput::placeholder {
+    color: #ab947e !important;
+}
 
 
 
