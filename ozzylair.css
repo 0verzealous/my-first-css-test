@@ -221,7 +221,7 @@ color: #593d3b !important; }
 /* breadcrumb bar */
 
 .breadcrumb {
-background: #c3a995 !important;
+background: #ab947e !important;
 color: #6f5e53 !important;
 border: none !important;
 border-radius: 0px !important;} 
@@ -300,7 +300,7 @@ color: transparent !important;
 
 .breadcrumb::after {
     content: "background by hodarinundu";
-    color: #FFFFFF !important;
+    color: #6f5e53 !important;
     position: absolute;
     right: 13%;
     z-index: 100;
@@ -309,8 +309,8 @@ color: transparent !important;
 /* side panels */
  
 .panel {
-background: #c3a995 !important;
-color: #6f5e53 !important;
+background: #6f5e53 !important;
+color: #c3a995 !important;
 border: none !important;
 border-radius: 0px !important;
 box-shadow: none !important;  }
@@ -336,7 +336,7 @@ color: #c3a995 !important; }
 
 /* background of progress bar */
 .progress {
-background: #6f5e53;
+background: #593d3b;
 color: #HEX !important;
 border-radius: 0px !important;  }
 
