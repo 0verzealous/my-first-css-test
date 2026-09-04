@@ -41,7 +41,7 @@ z-index: 100; }
 
 .my-box-table {
     width: 100% !important;
-    margin-top: -300px !important;
+    margin-top: 0px !important;
     border: none !important;
     border-collapse: separate !important;
     border-spacing: 10px !important;
