@@ -26,14 +26,6 @@ color: #HEX; } }
 html.nolayout {
 background: none !important; }
 
-/* CREDIT FOR BACKGROUND AND OTHER STUFF */
-.breadcrumb::after {
-content: "background by <a href="https://www.instagram.com/hodarinundu/">hodarinundu</a>";
-color: #HEX;
-position: absolute;
-right: 13%;
-z-index: 100; }
-
 
 /* ================================
    CUSTOM BOXES
@@ -41,7 +33,7 @@ z-index: 100; }
 
 .my-box-table {
     width: 100% !important;
-    margin-top: 0px !important;
+    margin-top: -200px !important;
     border: none !important;
     border-collapse: separate !important;
     border-spacing: 10px !important;
@@ -294,6 +286,13 @@ color: transparent !important;
     color: #ab947e !important;
 }
 
+/* CREDIT FOR BACKGROUND AND OTHER STUFF */
+.breadcrumb::after {
+content: "background by <a href="https://www.instagram.com/hodarinundu/">hodarinundu</a>";
+color: #FFFFFF;
+position: absolute;
+right: 13%;
+z-index: 100; }
 
 /* ==================== BIG BOY STUFF ==================== */
 
