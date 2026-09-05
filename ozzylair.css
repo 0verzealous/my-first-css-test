@@ -514,42 +514,36 @@ background: none !important; }
 
 
 /* Code made by Pandora #144118  */
- 
- 
 /* custom king title */
  
 #about > tbody > tr:nth-child(1) > td > div::before {
     content:'Lover of All Things Lion,';
     font-size:18px;
 
-input[type="text"],
-input[type="number"],
-input[type="password"],
-input[type="submit"],
-input[type="button"],
-textarea,
-select,
+/* BUTTONS */
+
 button,
 button.button,
+input[type="button"],
+input[type="submit"],
 a.btn,
-a.btn.btn-default,
-a.btn.btn-default.button {
+a.btn-default {
     background: #6f5e53 !important;
     background-color: #6f5e53 !important;
-    border: none !important;
-    border-radius: 0px !important;
+    background-image: none !important;
     color: #c3a995 !important;
+    border: 1px solid #593d3b !important;
+    border-radius: 0px !important;
     text-shadow: none !important;
     box-shadow: none !important;
 }
 
 button:hover,
 button.button:hover,
-a.btn:hover,
-a.btn.btn-default:hover,
-a.btn.btn-default.button:hover,
+input[type="button"]:hover,
 input[type="submit"]:hover,
-input[type="button"]:hover {
+a.btn:hover,
+a.btn-default:hover {
     background: #8a7968 !important;
     background-color: #8a7968 !important;
     color: #c3a995 !important;
@@ -582,22 +576,21 @@ td.bottom a, th a {
 border-bottom: none !important; }
 
 
-/* LION AND USER AVATAR OPACITY */
+/* LION AND USER AVATAR */
 
-div#lion_image {
+#lion_image {
+    border: 2px solid #593d3b !important;
     border-radius: 5% !important;
-    border: 2px solid #6f5e53 !important;
     overflow: hidden !important;
 }
 
-div#lion_image img {
+#lion_image img {
     opacity: 0.5 !important;
 }
 
 table#player img {
     opacity: 0.5 !important;
-    background-color: #593d3b !important;
-    border: 2px solid #6f5e53 !important;
+    border: 2px solid #593d3b !important;
     border-radius: 5% !important;
 }
 
