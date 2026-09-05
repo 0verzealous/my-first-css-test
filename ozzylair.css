@@ -522,15 +522,38 @@ background: none !important; }
     content:'Lover of All Things Lion,';
     font-size:18px;
 
-/* text boxes and buttons */
- 
-input, textarea, select, button.button,
+input[type="text"],
+input[type="number"],
+input[type="password"],
+input[type="submit"],
+input[type="button"],
+textarea,
+select,
+button,
+button.button,
+a.btn,
+a.btn.btn-default,
 a.btn.btn-default.button {
-background: #6f5e53 !important;
-border: none !important;
-border-radius: 0px !important;
-color: #c3a995 !important;
-text-shadow: none !important; }
+    background: #6f5e53 !important;
+    background-color: #6f5e53 !important;
+    border: none !important;
+    border-radius: 0px !important;
+    color: #c3a995 !important;
+    text-shadow: none !important;
+    box-shadow: none !important;
+}
+
+button:hover,
+button.button:hover,
+a.btn:hover,
+a.btn.btn-default:hover,
+a.btn.btn-default.button:hover,
+input[type="submit"]:hover,
+input[type="button"]:hover {
+    background: #8a7968 !important;
+    background-color: #8a7968 !important;
+    color: #c3a995 !important;
+}
  
 /* cave names */
  
