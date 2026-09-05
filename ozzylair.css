@@ -650,41 +650,6 @@ a.button:hover,
     border-color: #593d3b !important;
 }
 
-/* CAVE ICONS AND STUFF */
-
-div.cave-grid>img {
-content: url('https://static.lioden.com/images/items/Amusement/nestingbundle.png')!important;
-width: 75px;
-height: 75px; }
-
-a[href$="170548"]>div.cave-grid>img {
-content: url('https://i.postimg.cc/87Np0D5T/Add-a-subheading.png')!important;
-width: 258px !important;
-height: auto !important; }
-a[href$="122471"]>div.cave-grid>img {
-content: url('https://i.postimg.cc/tspqMyTj/Add-a-subheading-(1).png')!important; 
-width: 258px !important;
-height: auto !important; }
-a[href$="120607"]>div.cave-grid>img {
-content: url('https://i.postimg.cc/QFh8ysts/Add-a-subheading-(2).png')!important;
-width: 258px !important;
-height: auto !important; }
-a[href$="122655"]>div.cave-grid>img {
-content: url('https://i.postimg.cc/Bj4SVs63/Add-a-subheading-(3).png')!important;
-width: 258px !important;
-height: auto !important; }
-
-
-div.cave-grid>img[src$="nestingbanner.png"] {
-	content: url('URL')!important; }
-a[href$="unsorted.php?id=176667"]>div.cave-grid>img{
-content: url('URL')!important;
-width: 75px;
-height: 75px;}
-a[href*="lionoverview.php?id=176667"]>div.cave-grid>img {
-content: url('URL')!important;
-width: 75px;
-height: 75px; }
 
 /* ==================== BIG BOY STUFF ==================== */
 
