@@ -520,69 +520,6 @@ background: none !important; }
     content:'Lover of All Things Lion,';
     font-size:18px; 
 }
-
-/* BUTTONS */
-
-.btnToggleSidebarChat {
-    background: #6f5e53 !important;
-    background-color: #6f5e53 !important;
-    background-image: none !important;
-    color: #c3a995 !important;
-    border: 1px solid #593d3b !important;
-    border-radius: 0px !important;
-    text-shadow: none !important;
-    box-shadow: none !important;
-}
-
-.btnChatSend {
-    background: #6f5e53 !important;
-    background-color: #6f5e53 !important;
-    background-image: none !important;
-    color: #c3a995 !important;
-    border: 1px solid #593d3b !important;
-    border-radius: 0px !important;
-    text-shadow: none !important;
-    box-shadow: none !important;
-}
-
-.postComment {
-    background: #6f5e53 !important;
-    background-color: #6f5e53 !important;
-    background-image: none !important;
-    color: #c3a995 !important;
-    border: 1px solid #593d3b !important;
-    border-radius: 0px !important;
-    text-shadow: none !important;
-    box-shadow: none !important;
-}
-
-.Attack {
-    background: #6f5e53 !important;
-    background-color: #6f5e53 !important;
-    background-image: none !important;
-    color: #c3a995 !important;
-    border: 1px solid #593d3b !important;
-    border-radius: 0px !important;
-    text-shadow: none !important;
-    box-shadow: none !important;
-}
-
-button.button {
-    background: #6f5e53 !important;
-    background-color: #6f5e53 !important;
-    background-image: none !important;
-    color: #c3a995 !important;
-    border: 1px solid #593d3b !important;
-    border-radius: 0px !important;
-    text-shadow: none !important;
-    box-shadow: none !important;
-}
-
-button.button:hover {
-    background: #8a7968 !important;
-    background-color: #8a7968 !important;
-    color: #c3a995 !important;
-}
  
 /* cave names */
  
@@ -611,24 +548,36 @@ td.bottom a, th a {
 border-bottom: none !important; }
 
 
-/* LION AND USER AVATAR */
-
-#lion_image {
+/* LION AND USER AVATAR OPACITY */
+   
+div#lion_image {
+    opacity: 0.5;
+    border-radius: 5%;
     border: 2px solid #593d3b !important;
-    border-radius: 5% !important;
-    overflow: hidden !important;
+    overflow: hidden;
 }
 
-#lion_image .lion-image-block {
-    opacity: 0.5 !important;
-}
-
-td.right img[src*="1694.png"] {
-    opacity: 0.5 !important;
+table#player img {
+    opacity: 0.5;
+    background-color: #c3a995;
     border: 2px solid #593d3b !important;
-    border-radius: 5% !important;
+    border-radius: 5%;
 }
 
+
+/* TEXT BOXES AND BUTTONS */
+ 
+input,
+textarea,
+select,
+button.button,
+a.btn.btn-default.button {
+    background: #6f5e53 !important;
+    border: none !important;
+    border-radius: 0px !important;
+    color: #c3a995 !important;
+    text-shadow: none !important;
+}
 
 
 /* ==================== BIG BOY STUFF ==================== */
