@@ -565,18 +565,66 @@ table#player img {
 }
 
 
-/* TEXT BOXES AND BUTTONS */
- 
+/* ================================
+   TEXT BOXES AND BUTTONS
+   ================================ */
+
+/* Text boxes */
 input,
 textarea,
-select,
-button.button,
-a.btn.btn-default.button {
+select {
     background: #6f5e53 !important;
-    border: none !important;
-    border-radius: 0px !important;
     color: #c3a995 !important;
+    border: 1px solid #593d3b !important;
+    border-radius: 0px !important;
     text-shadow: none !important;
+    box-shadow: none !important;
+}
+
+
+/* Buttons */
+button,
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+a.btn,
+a.btn.btn-default,
+button.button,
+a.button,
+.postComment,
+.Attack {
+    background: #6f5e53 !important;
+    background-color: #6f5e53 !important;
+    background-image: none !important;
+
+    color: #c3a995 !important;
+
+    border: 1px solid #593d3b !important;
+    border-radius: 0px !important;
+
+    text-shadow: none !important;
+    box-shadow: none !important;
+}
+
+
+/* Button hover */
+button:hover,
+input[type="button"]:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+a.btn:hover,
+a.btn.btn-default:hover,
+button.button:hover,
+a.button:hover,
+.postComment:hover,
+.Attack:hover {
+    background: #8a7968 !important;
+    background-color: #8a7968 !important;
+    background-image: none !important;
+
+    color: #c3a995 !important;
+
+    border-color: #593d3b !important;
 }
 
 
