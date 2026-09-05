@@ -398,6 +398,17 @@ background-color: #593d3b !important;
 color: #c3a995 !important;
 border: none !important; }
 
+/* LINKS IN TOP/PINNED CHAT MESSAGE ONLY */
+
+.s-chat-message__pinned a:link,
+.s-chat-message__pinned a:visited {
+    color: #c3a995 !important;
+}
+
+.s-chat-message__pinned a:hover {
+    color: #ffece8 !important;
+}
+
 /* Odd will show at the TOP of chat, even will show every other message under it. If you want both colors the same, do
 not touch the even/odd specifications */ 
 
