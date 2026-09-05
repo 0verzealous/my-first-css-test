@@ -252,7 +252,10 @@ color: #c3a995 !important;}
 .alert-success {
 background: #6f5e53 !important;
 color: #c3a995 !important;}
- 
+
+td.left.b.center[width="100%"] {
+    color: #6f5e53 !important;
+}
 
 /* comment box, NOT CHAT BOX */
 
