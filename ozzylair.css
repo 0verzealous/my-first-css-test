@@ -650,6 +650,18 @@ a.button:hover,
     border-color: #593d3b !important;
 }
 
+/* CAVE ICONS AND STUFF */
+
+div.cave-grid>img {
+content: url('https://static.lioden.com/images/items/Amusement/nestingbundle.png')!important;
+width: 75px;
+height: 75px; }
+
+a[href$="170548"]>div.cave-grid>img {
+content: url('https://i.postimg.cc/87Np0D5T/Add-a-subheading.png')!important;
+width: 258px !important;
+height: auto !important; }
+
 
 /* ==================== BIG BOY STUFF ==================== */
 
