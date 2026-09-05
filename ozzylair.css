@@ -582,8 +582,8 @@ select {
 }
 
 
-/* Buttons */
-button,
+/* Buttons - EXCLUDING CHAT CONTROLS */
+button:not(.s-chat-message_menu):not(#btnChatSettings):not(#btnLoadNewMessages),
 input[type="button"],
 input[type="submit"],
 input[type="reset"],
@@ -607,8 +607,8 @@ a.button,
 }
 
 
-/* Button hover */
-button:hover,
+/* Button hover - EXCLUDING CHAT CONTROLS */
+button:not(.s-chat-message_menu):not(#btnChatSettings):not(#btnLoadNewMessages):hover,
 input[type="button"]:hover,
 input[type="submit"]:hover,
 input[type="reset"]:hover,
@@ -626,7 +626,6 @@ a.button:hover,
 
     border-color: #593d3b !important;
 }
-
 
 /* ==================== BIG BOY STUFF ==================== */
 
