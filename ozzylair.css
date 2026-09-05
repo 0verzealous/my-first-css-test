@@ -26,6 +26,11 @@ color: #HEX; } }
 html.nolayout {
 background: none !important; }
 
+tr.right > td.right > hr {
+    display: none !important;
+}
+/* end of dont touch */
+
 
 /* ================================
    CUSTOM BOXES
