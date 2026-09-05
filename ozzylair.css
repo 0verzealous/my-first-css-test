@@ -522,12 +522,7 @@ background: none !important; }
 
 /* BUTTONS */
 
-button,
-button.button,
-input[type="button"],
-input[type="submit"],
-a.btn,
-a.btn-default {
+.btnToggleSidebarChat {
     background: #6f5e53 !important;
     background-color: #6f5e53 !important;
     background-image: none !important;
@@ -538,12 +533,51 @@ a.btn-default {
     box-shadow: none !important;
 }
 
-button:hover,
-button.button:hover,
-input[type="button"]:hover,
-input[type="submit"]:hover,
-a.btn:hover,
-a.btn-default:hover {
+.btnChatSend {
+    background: #6f5e53 !important;
+    background-color: #6f5e53 !important;
+    background-image: none !important;
+    color: #c3a995 !important;
+    border: 1px solid #593d3b !important;
+    border-radius: 0px !important;
+    text-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.postComment {
+    background: #6f5e53 !important;
+    background-color: #6f5e53 !important;
+    background-image: none !important;
+    color: #c3a995 !important;
+    border: 1px solid #593d3b !important;
+    border-radius: 0px !important;
+    text-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.Attack {
+    background: #6f5e53 !important;
+    background-color: #6f5e53 !important;
+    background-image: none !important;
+    color: #c3a995 !important;
+    border: 1px solid #593d3b !important;
+    border-radius: 0px !important;
+    text-shadow: none !important;
+    box-shadow: none !important;
+}
+
+button.button {
+    background: #6f5e53 !important;
+    background-color: #6f5e53 !important;
+    background-image: none !important;
+    color: #c3a995 !important;
+    border: 1px solid #593d3b !important;
+    border-radius: 0px !important;
+    text-shadow: none !important;
+    box-shadow: none !important;
+}
+
+button.button:hover {
     background: #8a7968 !important;
     background-color: #8a7968 !important;
     color: #c3a995 !important;
@@ -584,11 +618,11 @@ border-bottom: none !important; }
     overflow: hidden !important;
 }
 
-#lion_image img {
+#lion_image .lion-image-block {
     opacity: 0.5 !important;
 }
 
-table#player img {
+td.right img[src*="1694.png"] {
     opacity: 0.5 !important;
     border: 2px solid #593d3b !important;
     border-radius: 5% !important;
