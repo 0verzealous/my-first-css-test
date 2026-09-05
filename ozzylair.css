@@ -606,7 +606,7 @@ select {
 
 
 /* Buttons - EXCLUDING CHAT CONTROLS */
-button:not(.s-chat-message_menu):not(#btnChatSettings):not(#btnLoadNewMessages),
+button:not(.s-chat-message_menu):not(#btnChatSettings):not(#btnLoadNewMessages):not(#emoteInput),
 input[type="button"],
 input[type="submit"],
 input[type="reset"],
